@@ -6,3 +6,4 @@ Yksinkertainen Python-ohjelma, joka tulostaa tervehdyksen omalla nimellä.
 Tiedosto `script1.py` tulostaa tervehdyksen.
 
 ## Esimerkkiajo
+Hei Veikko Ruohonen
