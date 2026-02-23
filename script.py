@@ -1,10 +1,12 @@
-ALAMITTA = 37
+luokka = input("Anna hyttiluokka (LUX, A, B, C): ").strip().upper()
 
-pituus = float(input("Anna kuhan pituus (cm): "))
-
-if pituus < ALAMITTA:
-    puuttuu = ALAMITTA - pituus
-    print(f"Kuha on alamittainen. Laske se takaisin järveen.")
-    print(f"Alimmasta sallitusta pyyntimitasta puuttuu {puuttuu:.1f} cm.")
+if luokka == "LUX":
+    print("LUX on parvekkeellinen hytti yläkannella.")
+elif luokka == "A":
+    print("A on ikkunallinen hytti autokannen yläpuolella.")
+elif luokka == "B":
+    print("B on ikkunaton hytti autokannen yläpuolella.")
+elif luokka == "C":
+    print("C on ikkunaton hytti autokannen alapuolella.")
 else:
-    print("Kuha on sallitun mittainen.")
+    print("Virheellinen hyttiluokka")
